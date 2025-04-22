@@ -1,9 +1,20 @@
-/*
-Merge an array of intervals so there are no overlapping intervals, and return the resultant merged intervals.
-
-Input: intervals = [[3, 4], [7, 8], [2, 5], [6, 7], [1, 4]]
-Output: [[1, 5], [6, 8]]
-*/
+/**
+ * Problem:
+ * Merge overlapping intervals in an array of intervals.
+ * Each interval is represented as a pair of integers [start, end].
+ * The intervals in the input array are not necessarily sorted.
+ * 
+ * Example:
+ * Input: intervals = [[3, 4], [7, 8], [2, 5], [6, 7], [1, 4]]
+ * Output: [[1, 5], [6, 8]]
+ * 
+ * Explanation:
+ * The intervals are: 3-4, 7-8, 2-5, 6-7, and 1-4.
+ * The overlapping intervals are:
+ * 1. 1-4 (from [1, 4] and [2, 5])
+ * 2. 6-7 (from [6, 7] and [7, 8])
+ * Therefore, the merged intervals are: [[1, 5], [6, 8]].
+ */
 
 class Solution {
     public int[][] merge(int[][] intervals) {

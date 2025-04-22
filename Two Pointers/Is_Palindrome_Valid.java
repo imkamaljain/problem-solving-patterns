@@ -1,11 +1,18 @@
-/*
-A palindrome is a sequence of characters that reads the same forward and backward.
-Given a string s, determine if it's a palindrome after removing all non-alphanumeric characters.
-A character is alphanumeric if it's either a letter or a number.
-
-Input: s = "a dog! a panic in a pagoda"
-Output: true
-*/
+/**
+ * Problem:
+ * Given a string s, determine if it is a palindrome after removing all non-alphanumeric characters.
+ * A character is alphanumeric if it's either a letter or a number.
+ * 
+ * Example:
+ * Input: s = "a dog! a panic in a pagoda"
+ * Output: true
+ * 
+ * Explanation:
+ * The string "a dog! a panic in a pagoda" is a palindrome when ignoring spaces and punctuation.
+ * The alphanumeric characters are: "adogapanicinapagoda"
+ * which reads the same forward and backward.
+ * Therefore, the output is true.
+ */
 
 class Solution {
     public boolean isPalindrome(String s) {

@@ -1,10 +1,21 @@
-/*
-Return an array of all overlaps between two arrays of intervals; A and B. 
-Each individual interval array is sorted by start value, and contains no overlapping intervals within itself.
-
-Input: A = [[1, 4], [5, 6], [9, 10]], B = [[2, 7], [8, 9]]
-Output: [(2, 4], [5, 6], [9, 9]]
-*/
+/**
+ * Problem:
+ * Return all overlapping intervals between two sorted arrays of intervals.
+ * Each interval is represented as a pair of integers [start, end].
+ * The intervals in each array are sorted by their start values, and there are no overlapping intervals within each array.
+ *  
+ * Example:
+ * Input: A = [[1, 4], [5, 6], [9, 10]], B = [[2, 7], [8, 9]]
+ * Output: [[2, 4], [5, 6], [9, 9]]
+ * 
+ * Explanation:
+ * The intervals in A are: 1-4, 5-6, and 9-10.
+ * The intervals in B are: 2-7 and 8-9.
+ * The overlapping intervals are:
+ * 1. 2-4 (from A[0] and B[0])
+ * 2. 5-6 (from A[1] and B[0])
+ * 3. 9-9 (from A[2] and B[1])
+ */
 
 class Solution {
     public static List<int[]> getOverlaps(int[][] A, int[][] B) {

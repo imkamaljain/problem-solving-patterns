@@ -1,11 +1,18 @@
-/*
-Given an array of integers sorted in ascending order and a target value, 
-return the indexes of any pair of numbers in the array that sum to the target.
-The order of the indexes in the result doesn't matter. If no pair is found, return an empty array.
-
-Input: nums = [-5, -2, 3, 4, 6], target = 7
-Output: [2, 3]
-*/
+/**
+ * Problem:
+ * Given an array of integers sorted in ascending order and a target value, return the indexes of any pair of numbers in the array that sum to the target.
+ * The order of the indexes in the result doesn't matter. If no pair is found, return an empty array.
+ * 
+ * Example:
+ * Input: nums = [-5, -2, 3, 4, 6], target = 7
+ * Output: [2, 3]
+ * 
+ * Explanation:
+ * The array is sorted in ascending order.
+ * The target value is 7.
+ * The pair of numbers that sum to 7 are 3 and 4, which are at indexes 2 and 3 respectively.
+ * The output is [2, 3].
+ */
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {

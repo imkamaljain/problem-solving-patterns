@@ -1,12 +1,21 @@
-/*
-Given an array of integers, return all triplets [a, b, c] such that a + b + c = 0.
-The solution must not contain duplicate triplets (e.g., [1, 2, 3] and [2, 3, 1] are considered duplicates).
-If no such triplets are found, return an empty array.
-Each triplet can be arranged in any order, and the output can be returned in any order.
-
-Input: nums = [0, -1, 2, -3, 1]
-Output: [[-3, 1, 2], [-1, 0, 1]]
-*/
+/**
+ * Problem:
+ * Given an array of integers, find all unique triplets (a, b, c) such that a + b + c = 0.
+ * The solution must not contain duplicate triplets (e.g., [1, 2, 3] and [2, 3, 1] are considered duplicates).
+ * If no such triplets are found, return an empty array.
+ * Each triplet can be arranged in any order, and the output can be returned in any order.
+ * 
+ * Example:
+ * Input: nums = [0, -1, 2, -3, 1]
+ * Output: [[-3, 1, 2], [-1, 0, 1]]
+ * 
+ * Explanation:
+ * The array contains integers: 0, -1, 2, -3, and 1.
+ * The unique triplets that sum to zero are:
+ * 1. [-3, 1, 2]
+ * 2. [-1, 0, 1]
+ * The output is a list of these triplets.
+ */
 
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
