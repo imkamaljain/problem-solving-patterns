@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Given an array of integers, determine the maximum number of intervals that overlap at any point.
  * Each interval is half-open, meaning it includes the start point but excludes the end point.
  * 

@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Merge overlapping intervals in an array of intervals.
  * Each interval is represented as a pair of integers [start, end].
  * The intervals in the input array are not necessarily sorted.

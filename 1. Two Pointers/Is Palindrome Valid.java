@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Given a string s, determine if it is a palindrome after removing all non-alphanumeric characters.
  * A character is alphanumeric if it's either a letter or a number.
  * 

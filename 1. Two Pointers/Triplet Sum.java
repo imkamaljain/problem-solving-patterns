@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Given an array of integers, find all unique triplets (a, b, c) such that a + b + c = 0.
  * The solution must not contain duplicate triplets (e.g., [1, 2, 3] and [2, 3, 1] are considered duplicates).
  * If no such triplets are found, return an empty array.

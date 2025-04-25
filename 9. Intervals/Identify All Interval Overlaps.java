@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Return all overlapping intervals between two sorted arrays of intervals.
  * Each interval is represented as a pair of integers [start, end].
  * The intervals in each array are sorted by their start values, and there are no overlapping intervals within each array.

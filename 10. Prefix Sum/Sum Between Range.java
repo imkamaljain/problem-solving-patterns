@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Given an array of integers, write a function which returns the sum of values between two indexes.
  * The function should be able to handle multiple queries efficiently.
  * 
