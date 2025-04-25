@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Given the root of a binary tree, invert the tree, and return its root.
  * Inverting a binary tree means swapping the left and right children of all nodes in the tree.  
  * 
@@ -23,21 +22,6 @@
  *  9  6 3  1
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         // Base case: if the tree is empty, return null

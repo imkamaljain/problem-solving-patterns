@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Given the root of a binary tree, determine if it is height-balanced.
  * A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.
  * 
@@ -17,21 +16,6 @@
  * All subtrees are balanced: the height difference between left and right children at each node is <= 1.
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     // Main function to check if the binary tree is balanced
     public boolean isBalanced(TreeNode root) {

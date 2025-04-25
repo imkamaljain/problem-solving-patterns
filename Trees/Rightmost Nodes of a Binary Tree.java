@@ -1,5 +1,4 @@
 /**
- * Problem:
  * Given the root of a binary tree, return an array containing the values of the rightmost nodes at each level of the tree.
  * The rightmost node is the last node encountered at each level during a level-order traversal (BFS).
  * 
@@ -21,21 +20,6 @@
  * Therefore, the output is [1, 3, 4].
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         // List to store the final result
